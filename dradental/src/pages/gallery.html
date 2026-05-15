@@ -1,0 +1,82 @@
+<section>
+  <div class="dentix-gallery">
+    <h2 class="dentix-title">Galerie</h2>
+
+    <p class="dentix-gallery-text">
+      În cabinetul nostru vă așteaptă un mediu curat, modern și relaxant, unde
+      confortul și siguranța pacienților sunt pe primul loc.
+    </p>
+
+    <div class="dentix-gallery-grid">
+      <img src="{{assetBase}}/images/1.jpeg" alt="" onclick="openLightbox(0)" />
+      <img src="{{assetBase}}/images/2.jpeg" alt="" onclick="openLightbox(1)" />
+      <img src="{{assetBase}}/images/3.jpeg" alt="" onclick="openLightbox(2)" />
+      <img src="{{assetBase}}/images/4.jpeg" alt="" onclick="openLightbox(3)" />
+      <img src="{{assetBase}}/images/6.jpeg" alt="" onclick="openLightbox(5)" />
+      <img src="{{assetBase}}/images/7.jpeg" alt="" onclick="openLightbox(6)" />
+      <img src="{{assetBase}}/images/8.jpeg" alt="" onclick="openLightbox(7)" />
+    </div>
+
+    <!-- LIGHTBOX -->
+    <div id="dentix-lightbox">
+      <span class="dentix-close" onclick="closeLightbox()">✕</span>
+
+      <span class="dentix-nav left" onclick="prevImage()">❮</span>
+      <img id="dentix-lightbox-img" />
+      <span class="dentix-nav right" onclick="nextImage()">❯</span>
+    </div>
+  </div>
+
+  <!-- Lightbox -->
+  <div id="dentix-lightbox" onclick="closeLightbox()">
+    <img id="dentix-lightbox-img" />
+  </div>
+</section>
+
+<script>
+  const images = [
+    "{{assetBase}}/images/1.jpeg",
+    "{{assetBase}}/images/2.jpeg",
+    "{{assetBase}}/images/3.jpeg",
+    "{{assetBase}}/images/4.jpeg",
+    "{{assetBase}}/images/6.jpeg",
+    "{{assetBase}}/images/7.jpeg",
+    "{{assetBase}}/images/8.jpeg",
+  ];
+
+  let currentIndex = 0;
+
+  function openLightbox(index) {
+    currentIndex = index;
+    document.getElementById("dentix-lightbox").style.display = "flex";
+    showImage();
+  }
+
+  function closeLightbox() {
+    document.getElementById("dentix-lightbox").style.display = "none";
+  }
+
+  function showImage() {
+    document.getElementById("dentix-lightbox-img").src = images[currentIndex];
+  }
+
+  function nextImage() {
+    currentIndex = (currentIndex + 1) % images.length;
+    showImage();
+  }
+
+  function prevImage() {
+    currentIndex = (currentIndex - 1 + images.length) % images.length;
+    showImage();
+  }
+
+  /* billentyűk */
+  document.addEventListener("keydown", (e) => {
+    if (document.getElementById("dentix-lightbox").style.display !== "flex")
+      return;
+
+    if (e.key === "ArrowRight") nextImage();
+    if (e.key === "ArrowLeft") prevImage();
+    if (e.key === "Escape") closeLightbox();
+  });
+</script>

@@ -1,0 +1,89 @@
+<section class="doctorSection reveal is-visible">
+  <div class="doctorRow">
+    <div class="doctorImage">
+      <img src="{{assetBase}}/images/csaba.jpeg" id="csaba" />
+    </div>
+    <div class="doctorInfo">
+      <h2>Dr. Antal Csaba</h2>
+      <p>{{csabaabout}}</p>
+    </div>
+  </div>
+</section>
+
+<section class="doctorSection black reveal is-visible" id="kati">
+  <div class="doctorRow reverse">
+    <div class="doctorImage">
+      <img src="{{assetBase}}/images/kati.jpeg" />
+    </div>
+    <div class="doctorInfo">
+      <h2>Dr. Antal Katalin</h2>
+      <p>{{katiabout}}</p>
+    </div>
+  </div>
+</section>
+
+<section class="doctorSection reveal is-visible" id="gabriel">
+  <div class="doctorRow">
+    <div class="doctorImage">
+      <img src="{{assetBase}}/images/gabriel.jpeg" />
+    </div>
+    <div class="doctorInfo">
+      <h2>Dr. Gudumac Gabriel</h2>
+      <p>{{gabrielabout}}</p>
+    </div>
+  </div>
+</section>
+
+<section class="toMap reveal is-visible">
+  <div class="reveal" data-animate="zoom">
+    <iframe
+      title="{{mapTitle}}"
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+      src="{{mapEmbedUrl}}"
+    ></iframe>
+  </div>
+</section>
+
+<section id="contact" class="section">
+  <div class="wrap">
+    <div class="contactGrid">
+      <div class="card reveal contactGriddd" data-animate="slide-up">
+        <h1>{{contactCardTitle}}</h1>
+
+        <div class="kv">
+          <div><b>{{addrLabel}}</b><span>{{address}}</span></div>
+          <div>
+            <b>{{phoneLabel}}</b><a href="tel:{{phoneRaw}}">{{phonePretty}}</a>
+          </div>
+          <div>
+            <b>{{emailLabel}}</b><a href="mailto:{{email}}">{{email}}</a>
+          </div>
+          <div><b>{{hoursLabel}}</b><span>{{hours}}</span></div>
+        </div>
+
+        <div class="ctaRow">
+          <a class="btn btnPrimary" href="tel:{{phoneRaw}}">{{callCta}}</a>
+          <a class="btn btnPrimary" href="mailto:{{email}}">{{emailCta}}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  const rows = document.querySelectorAll(".doctorRow");
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+        }
+      });
+    },
+    { threshold: 0.2 },
+  );
+
+  rows.forEach((row) => observer.observe(row));
+</script>

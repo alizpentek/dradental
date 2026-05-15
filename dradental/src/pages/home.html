@@ -1,0 +1,160 @@
+ <img
+          src="{{assetBase}}/images/home_telephone.gif"
+          alt="homeTelephone"
+          loading="eager"
+          decoding="async"
+          class="homeTelephone"
+        />
+
+
+<div class="containerImages">
+
+  <!-- BAL OSZLOP (lefelé megy) -->
+  <div class="column down">
+    <div class="track">
+      <img src="{{assetBase}}/images/1.jpeg">
+      <img src="{{assetBase}}/images/2.jpeg">
+      <img src="{{assetBase}}/images/3.jpeg">
+      <img src="{{assetBase}}/images/4.jpeg">
+      <img src="{{assetBase}}/images/1.jpeg">
+      <img src="{{assetBase}}/images/2.jpeg">
+      <img src="{{assetBase}}/images/3.jpeg">
+      <img src="{{assetBase}}/images/4.jpeg">
+    </div>
+  </div>
+
+  <!-- JOBB OSZLOP (felfelé megy) -->
+  <div class="column up">
+    <div class="track">
+      <img src="{{assetBase}}/images/6.jpeg">
+      <img src="{{assetBase}}/images/7.jpeg">
+      <img src="{{assetBase}}/images/8.jpeg">
+      <img src="{{assetBase}}/images/6.jpeg">
+      <img src="{{assetBase}}/images/7.jpeg">
+      <img src="{{assetBase}}/images/8.jpeg">
+    </div>
+  </div>
+
+</div>
+<section id="top" class="hero">
+  <div class="wrap heroGrid">
+    <div class="reveal" data-animate="fade-up">
+    <h1>{{heroTitle}}</h1>
+    </div>
+      <div class="">
+        <div class="reveal" data-animate="fade-up">
+          
+          <p class="muted" style="white-space: pre-line;">{{aboutText}}</p>
+        </div>
+      </div>
+    </div>
+
+    
+  </div>
+
+</section>
+<section id="doctors" class="doctors">
+  <div class="wrap">
+    <h1 class="sectionTitleDoctors">{{doctors}}</h1>
+
+    <div class="doctorHero">
+
+  <!-- THUMBNAIL SOR -->
+  <div class="doctorThumbs">
+
+    <div class="thumb active"
+         data-name="Dr. Antal Csaba"
+         data-desc="{{csabashort}}"
+         data-img="{{assetBase}}/images/csaba.jpeg"
+         data-link="{{langRoot}}about#csaba">
+      <img src="{{assetBase}}/images/csaba.jpeg">
+      <a class="btn btnPrimary moreBtn" href="{{langRoot}}about#csaba">{{more}}</a>
+    </div>
+
+    <div class="thumb"
+         data-name="Dr. Antal Katalin"
+         data-desc="{{katishort}}"
+         data-img="{{assetBase}}/images/kati.jpeg"
+         data-link="{{langRoot}}about#kati">
+      <img src="{{assetBase}}/images/kati.jpeg">
+    </div>
+
+    <div class="thumb"
+         data-name="Dr. Gudumac Gabriel"
+         data-desc="{{gabrielshort}}"
+         data-img="{{assetBase}}/images/gabriel.jpeg"
+         data-link="{{langRoot}}about#gabriel">
+      <img src="{{assetBase}}/images/gabriel.jpeg">
+      <a class="btn btnPrimary moreBtn" href="{{langRoot}}about#gabriel">{{more}}</a>
+    </div>
+
+  </div>
+
+  <!-- FŐ TARTALOM -->
+  <div class="doctorMain">
+
+    <div class="imageWrap">
+      <img id="mainDoctorImg" src="{{assetBase}}/images/csaba.jpeg">
+    </div>
+
+    <div class="doctorText">
+      <h2 id="mainDoctorName">Dr. Antal Csaba</h2>
+      <p id="mainDoctorDesc">{{csabashort}}</p>
+      <a id="mainDoctorLink"
+        class="btn btnPrimary moreBtn"
+        href="{{langRoot}}about#csaba">
+        {{more}}
+      </a>
+    </div>
+
+  </div>
+
+</div>
+  </div>
+</section>
+
+<section id="contact" class="section">
+  <div class="wrap">
+    <div class="contactGrid">
+        <div class="card reveal" data-animate="zoom">
+        <h3>{{mapTitle}}</h3>
+        <iframe
+          title="{{mapTitle}}"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          src="{{mapEmbedUrl}}"
+        ></iframe>
+      </div>
+
+    </div>
+</section>
+
+<script>
+const thumbs = document.querySelectorAll(".thumb");
+
+const mainImg = document.getElementById("mainDoctorImg");
+const mainName = document.getElementById("mainDoctorName");
+const mainDesc = document.getElementById("mainDoctorDesc");
+const mainLink = document.getElementById("mainDoctorLink");
+
+thumbs.forEach(t => {
+  t.addEventListener("click", () => {
+
+    thumbs.forEach(x => x.classList.remove("active"));
+    t.classList.add("active");
+
+    // smooth swap
+    mainImg.style.opacity = 0;
+
+   setTimeout(() => {
+   mainImg.src = t.dataset.img;
+    mainName.textContent = t.dataset.name;
+    mainDesc.textContent = t.dataset.desc;
+    mainLink.href = t.dataset.link;
+
+    mainImg.style.opacity = 1;
+    }, 200);
+
+  });
+});
+</script>

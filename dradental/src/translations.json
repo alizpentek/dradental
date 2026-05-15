@@ -1,0 +1,119 @@
+{
+  "ro": {
+    "metaTitle": "DRA Dental – Stomatologie",
+    "metaDescription": "Stomatologie • Sâncraiu",
+    "siteName": "DRA Dental",
+    "siteTagline": "Stomatologie • Sâncraiu",
+
+    "aboutShortTitle": "Siguranță și îngrijire",
+    "aboutText": "Clinica noastră din Sâncraiu, o comună liniștită și în continuă dezvoltare, își așteaptă pacienții. Scopul nostru este să facem tratamentele stomatologice de înaltă calitate mai accesibile pentru locuitorii din zonă, fie că este vorba despre prevenție, intervenții estetice sau soluții stomatologice complexe, inclusiv protetică dentară. <br><br> Echipa noastră este dedicată să ofere fiecărui pacient îngrijire personalizată, delicată și profesională. <br><br> Vă așteptăm cu drag în cabinetul nostru!",
+
+    "langLabel": "Limbă",
+    "langRoActive": "isActive",
+    "langHuActive": "",
+
+    "navHome": "Acasă",
+    "navAbout": "Despre noi",
+    "navPricing": "Prețuri",
+    "navGallery": "Imagini",
+    "navContact": "Contact",
+
+    "topCta": "Programează-te",
+    "menu": "Meniu",
+    "close": "Închide",
+
+    "heroTitle": "Bine ați venit pe pagina DRA Dental Office!",
+    "heroPrimaryCta": "Contact rapid",
+    "heroSecondaryCta": "Vezi serviciile",
+
+    "contactTitle": "Contact",
+    "contactSubtitle": "Programează o vizită sau cere informații.",
+    "contactCardTitle": "Date de contact",
+    "contactCardText": "Sef serviciu: Gál Tibor",
+    "addrLabel": "Adresă",
+    "phoneLabel": "Telefon",
+    "emailLabel": "Email",
+    "hoursLabel": "Program",
+    "address": "Sâncraiu, str. Principală nr. 326, Cluj, România",
+    "phoneRaw": "+40740473398",
+    "phonePretty": "+40 740 473 398",
+    "email": "megkellcsinalni@gmail.com",
+    "hours": "",
+
+    "callCta": "Sună acum",
+    "emailCta": "Trimite email",
+
+    "mapTitle": "Hartă",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10918.565669371294!2d22.974620416826344!3d46.831061888064205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4748efea10d4660f%3A0xc04ed826f1a7a055!2s407515%20Kalotaszentkir%C3%A1ly!5e0!3m2!1shu!2sro!4v1775836001405!5m2!1shu!2sro",
+    "footerLinks": "Realizat de Friday Stories - Wedding invitations & Websites",
+    "footerlinkRel": "www.fridaystoriesstudio.com",
+
+    "addressLocality": "Cluj-Napoca",
+    "addressCountry": "RO",
+    "more": "Mai mult",
+
+    "csabaabout": "Mi-am finalizat studiile la Universitatea de Medicină și Farmacie „Iuliu Hațieganu” din Cluj-Napoca, unde am absolvit în 2020. Ulterior, între 2021 și 2024, am lucrat ca medic rezident în stomatologie generală și, în paralel, am activat într-un cabinet stomatologic privat din Cluj-Napoca. Această perioadă m-a ajutat să îmi consolidez baza profesională și să acumulez experiență în diferite tipuri de tratamente stomatologice. În 2025 am fondat propriul cabinet, DRA Dental Office, unde, pe lângă activitatea clinică, coordonez și echipa. Îmi doresc ca pacienții să beneficieze de tratamente moderne, realizate cu atenție și responsabilitate, într-un mediu în care să se simtă confortabil și în siguranță. Cred că o experiență bună la dentist se bazează atât pe profesionalism, cât și pe încredere.",
+    "katiabout": "În 2024 am terminat Facultatea de Medicină Dentară din Cluj-Napoca. În această perioadă am avut oportunitatea de a petrece un semestru la Budapesta, în cadrul Universității Semmelweis. În 2026 am început să lucrez ca medic rezident Chirurgie Stomatologică și Maxilo-Facială, activând zilnic la intersecția dintre stomatologie și chirurgie. Sunt convinsă că prevenția joacă cel mai important rol în menținerea sănătății orale, motiv pentru care consider esențiale controalele regulate. Vă aștept cu drag în cabinetul nostru, într-o atmosferă calmă și prietenoasă!",
+    "gabrielabout": "Medic rezident Stomatologie generală, pasionat de tratamentele de canal, urmăresc menținerea și integritatea dinților naturali pe arcadă, cu tratamente și protocoale de actualitate, utilizând tehnici și materiale de ultimă generație.",
+    "csabashort": "Medic specialist stomatologie generală",
+    "katishort": "Medic rezident chirurgie stomatologică și maxilo-facială",
+    "gabrielshort": "medic rezident stomatologie generală",
+    "doctors": "Echipa"
+  },
+
+  "hu": {
+    "metaTitle": "DRA Dental – Fogászat",
+    "metaDescription": "Fogászat • Kalotaszentkirály",
+    "siteName": "DRA Dental",
+    "siteTagline": "Fogászat • Kalotaszentkirály",
+    "aboutShortTitle": "Biztonság és gondoskodás",
+    "aboutText": "Rendelőnk Kalotaszentkirályon, egy nyugodt és folyamatosan fejlődő községben várja pácienseit. Célunk, hogy a magas színvonalú fogászati kezeléseket könnyebben elérhetővé tegyük a környékbeliek számára, legyen szó megelőzésről, esztétikai beavatkozásokról vagy komplex fogászati megoldásokról, fogpótlásról. <br><br> Csapatunk elkötelezett amellett, hogy minden páciensünk személyre szabott, kíméletes és professzionális ellátásban részesüljön. <br><br> Szeretettel várjuk rendelőnkbe!",
+
+    "langLabel": "Nyelv",
+    "langRoActive": "",
+    "langHuActive": "isActive",
+
+    "navHome": "Főoldal",
+    "navAbout": "Rólunk",
+    "navPricing": "Árak",
+    "navGallery": "Képek",
+    "navContact": "Kapcsolat",
+    "footerlinkRel": "www.fridaystoriesstudio.com",
+    "more": "Több információ",
+
+    "topCta": "Időpontfoglalás",
+    "menu": "Menü",
+    "close": "Bezárás",
+    "heroTitle": "Üdvözöljük a DRA Dental Office oldalán!",
+    "heroPrimaryCta": "Gyors kapcsolat",
+    "heroSecondaryCta": "Szolgáltatások",
+
+    "contactTitle": "Kapcsolat",
+    "contactSubtitle": "Egyeztess látogatást vagy kérj információt.",
+    "contactCardTitle": "Elérhetőségek",
+    "addrLabel": "Cím",
+    "phoneLabel": "Telefon",
+    "emailLabel": "Email",
+    "hoursLabel": "Nyitvatartás",
+    "address": "Szentkirály, Főutca, 326 szám, Kolozs megye, Románia",
+    "phoneRaw": "+40740473398",
+    "phonePretty": "+40 740 473 398",
+    "email": "megkellcsinalni@gmail.com",
+    "hours": "",
+
+    "callCta": "Hívás",
+    "emailCta": "Email",
+
+    "mapTitle": "Térkép",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10918.565669371294!2d22.974620416826344!3d46.831061888064205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4748efea10d4660f%3A0xc04ed826f1a7a055!2s407515%20Kalotaszentkir%C3%A1ly!5e0!3m2!1shu!2sro!4v1775836001405!5m2!1shu!2sro",
+    "footerLinks": "Készítette: Friday Stories - Wedding invitations & Websites Studio Romania",
+
+    "csabaabout": "Tanulmányaimat a kolozsvári Iuliu Hațieganu Orvosi és Gyógyszerészeti Egyetemen végeztem, ahol 2020-ban szereztem diplomát. Ezt követően 2021 és 2024 között általános fogászati rezidensként dolgoztam, miközben Kolozsváron egy magánrendelőben is tapasztalatot gyűjtöttem. Ez az időszak segített abban, hogy magabiztos szakmai alapokat építsek, és szélesebb rálátást szerezzek a fogászati kezelések különböző területeire. 2025-ben létrehoztam saját rendelőmet, a DRA Dental Office-t, ahol a kezelések mellett a csapat munkáját is irányítom. Számomra fontos, hogy a páciensek biztonságban érezzék magukat, és olyan ellátást kapjanak, amely modern, alapos és személyre szabott. Hiszek abban, hogy a jó fogászati kezelés nemcsak szakmai tudásról, hanem figyelemről és bizalomról is szól.",
+    "katiabout": "Fogorvosi tanulmányaimat 2024-ben végeztem Kolozsváron. Ezalatt lehetőségem nyílt fél évet Budapesten, a Semmelweis Egyetem Fogorvosi Szakán tölteni. 2026 januárjától arc- és állsebészet rezidens orvosként dolgozom, így mindennapi munkám során a fogászat és a sebészet határterületein mozgok. Meggyőződésem, hogy a szájüreg egészségének megőrzésében a legfontosabb szerepe a megelőzésnek van, ezért kiemelten fontosnak tartom a rendszeres kontrollvizsgálatokat.  Szeretettel várom pácienseimet családias, nyugodt légkörű rendelőnkbe!",
+    "gabrielabout": "Medic rezident Stomatologie generală, pasionat de tratamentele de canal, urmăresc menținerea și integritatea dinților naturali pe arcadă, cu tratamente și protocoale de actualitate, utilizând tehnici și materiale de ultimă generație.",
+    "csabashort": "általános fogászat szakorvos",
+    "katishort": "arc- és állsebészet rezidens orvos",
+    "gabrielshort": "máltalános fogászar rezidens",
+    "doctors": "Orvosaink"
+  }
+}

@@ -1,0 +1,70 @@
+<header class="siteHeader">
+  <div class="wrap headerwrap">
+    <div class="nav">
+      <a class="brand" href="{{langRoot}}" aria-label="{{siteName}}">
+        <img
+          class="logoHeader"
+          src="{{assetBase}}/images/logoMenu.png"
+          alt=""
+          aria-hidden="true"
+        />
+      </a>
+
+      <nav class="desktopNav" aria-label="Primary">
+        <a href="{{langRoot}}about">{{navAbout}}</a>
+        <a href="{{langRoot}}pricing">{{navPricing}}</a>
+        <a href="{{langRoot}}about#contact">{{navContact}}</a>
+        <a href="{{langRoot}}gallery">{{navGallery}}</a>
+      </nav>
+
+      <div class="navRight">
+        <div class="langSwitch" aria-label="{{langLabel}}">
+          <a href="{{switchToRo}}" class="{{langRoActive}}">RO</a>
+          <span aria-hidden="true">•</span>
+          <a href="{{switchToHu}}" class="{{langHuActive}}">HU</a>
+        </div>
+
+        <a class="btn btnPrimary" href="#contact" id="contactCheck"
+          >{{topCta}}</a
+        >
+
+        <button
+          class="btn menuBtn"
+          id="menuBtn"
+          type="button"
+          aria-haspopup="dialog"
+          aria-controls="sheet"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div
+    class="sheet"
+    id="sheet"
+    aria-hidden="true"
+    role="dialog"
+    aria-modal="true"
+    aria-label="{{menu}}"
+  >
+    <div class="sheetPanel">
+      <div class="sheetTop">
+        <strong></strong>
+        <button class="btn" id="closeBtn" type="button">{{close}}</button>
+      </div>
+
+      <a href="{{langRoot}}about">{{navAbout}}</a>
+      <a href="{{langRoot}}pricing">{{navPricing}}</a>
+      <a href="{{langRoot}}gallery">{{navGallery}}</a>
+      <a href="{{langRoot}}about#contact">{{navContact}}</a>
+
+      <div class="sheetLang">
+        <a href="{{switchToRo}}" class="{{langRoActive}}">RO</a>
+        <a href="{{switchToHu}}" class="{{langHuActive}}">HU</a>
+      </div>
+    </div>
+  </div>
+</header>

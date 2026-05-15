@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="{{lang}}">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+    <title>{{metaTitle}}</title>
+    <meta name="description" content="{{metaDescription}}" />
+    <meta name="base-path" content="{{basePath}}" />
+    <meta property="og:image" content="{{assetBase}}/images/hatter.png" />
+    <link rel="icon" href="{{assetBase}}/images/logo.png" />
+
+    <link rel="canonical" href="{{canonicalUrl}}" />
+    <link rel="alternate" hreflang="ro" href="{{siteUrl}}/ro/" />
+    <link rel="alternate" hreflang="hu" href="{{siteUrl}}/hu/" />
+    <link rel="alternate" hreflang="x-default" href="{{siteUrl}}/ro/" />
+
+    <meta property="og:title" content="{{metaTitle}}" />
+    <meta property="og:description" content="{{metaDescription}}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{canonicalUrl}}" />
+    <meta
+      property="og:image"
+      content="{{siteUrl}}{{assetBase}}/images/hatter.png"
+    />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="{{metaTitle}}" />
+    <meta name="twitter:description" content="{{metaDescription}}" />
+
+    <link rel="stylesheet" href="{{assetBase}}/styles.css" />
+    <script src="{{assetBase}}/main.js" defer></script>
+
+    <script type="application/ld+json">
+      {{structuredData}}
+    </script>
+  </head>
+
+  <body>
+    <button class="toTop" id="toTop" type="button">↑</button>
+
+    {{> header}}
+
+    <main id="main">{{content}}</main>
+
+    {{> footer}}
+  </body>
+</html>

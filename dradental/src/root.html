@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="ro">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Redirecting…</title>
+    <link rel="icon" href="/assets/images/logo.png" />
+    <link rel="apple-touch-icon" href="/assets/images/logo.png" />
+    <meta property="og:image" href="{{assetBase}}/images/hatter.png" />
+  </head>
+  <body>
+    <script>
+      location.replace(
+        "/ro/" + (location.search || "") + (location.hash || ""),
+      );
+    </script>
+    <noscript><a href="/ro/">Continuă</a></noscript>
+  </body>
+</html>
