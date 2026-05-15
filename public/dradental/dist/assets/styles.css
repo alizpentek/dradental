@@ -1132,6 +1132,8 @@ iframe {
   height: 500px;
   border-radius: 24px;
   overflow: hidden;
+      display: block;
+    margin: auto;
 }
 
 .imageWrap img {
