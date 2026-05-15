@@ -1,7 +1,7 @@
 [build]
   publish = "public"
   command = """
-    cd ../dradental && 
+    cd public/dradental && 
     BASE_PATH=/dradental npm run build && 
     mkdir -p ../dradental && 
     cp -R dist/* ../dradental/
