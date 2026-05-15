@@ -1267,6 +1267,8 @@ iframe {
 
 .doctorInfo p {
   font-size: 17px;
+  line-height: 1.6;
+
   text-align: justify;
 }
 
