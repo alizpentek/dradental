@@ -2,9 +2,8 @@
   publish = "public"
   command = """
     cd public/dradental && 
-    BASE_PATH=/dradental npm run build && 
-    mkdir -p ../dradental && 
-    cp -R dist/* ../dradental/
+    npm run build && 
+    cp -R dist/* ../../public/
   """
 
 [[redirects]]
@@ -12,8 +11,3 @@
   to = "/ro"
   status = 301
   force = true
-
-[[redirects]]
-  from = "/dradental/*"
-  to = "/:splat"
-  status = 200
