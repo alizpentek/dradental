@@ -1,6 +1,11 @@
 [build]
-  command = "BASE_PATH=/dradental npm run build && mkdir -p public && cp -R dist/* public/"
   publish = "public"
+  command = """
+    cd public/dradental && 
+    BASE_PATH=/dradental npm run build && 
+    mkdir -p ../dradental && 
+    cp -R dist/* ../dradental/
+  """
 
 [[redirects]]
   from = "/"
