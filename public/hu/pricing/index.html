@@ -10,7 +10,7 @@
     <meta property="og:image" content="/assets/images/hatter.png" />
     <link rel="icon" href="/assets/images/logo.png" />
 
-    <link rel="canonical" href="http://localhost:3000/hu/gallery/" />
+    <link rel="canonical" href="http://localhost:3000/hu/pricing/" />
     <link rel="alternate" hreflang="ro" href="http://localhost:3000/ro/" />
     <link rel="alternate" hreflang="hu" href="http://localhost:3000/hu/" />
     <link rel="alternate" hreflang="x-default" href="http://localhost:3000/ro/" />
@@ -18,7 +18,7 @@
     <meta property="og:title" content="DRA Dental – Fogászat" />
     <meta property="og:description" content="Fogászat • Kalotaszentkirály" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="http://localhost:3000/hu/gallery/" />
+    <meta property="og:url" content="http://localhost:3000/hu/pricing/" />
     <meta
       property="og:image"
       content="http://localhost:3000/assets/images/hatter.png"
@@ -36,7 +36,7 @@
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "DRA Dental",
-  "url": "http://localhost:3000/hu/gallery/",
+  "url": "http://localhost:3000/hu/pricing/",
   "image": "http://localhost:3000/assets/images/undefined",
   "telephone": "+40768524813",
   "email": "info@dradentalclinic.com",
@@ -74,9 +74,9 @@
 
       <div class="navRight">
         <div class="langSwitch" aria-label="Nyelv">
-          <a href="/ro/gallery/" class="">RO</a>
+          <a href="/ro/pricing/" class="">RO</a>
           <span aria-hidden="true">•</span>
-          <a href="/hu/gallery/" class="isActive">HU</a>
+          <a href="/hu/pricing/" class="isActive">HU</a>
         </div>
 
         <a class="btn btnPrimary" href="/hu/contact" id="contactCheck"
@@ -117,96 +117,201 @@
       <a href="/hu/about#contact">Kapcsolat</a>
 
       <div class="sheetLang">
-        <a href="/ro/gallery/" class="">RO</a>
-        <a href="/hu/gallery/" class="isActive">HU</a>
+        <a href="/ro/pricing/" class="">RO</a>
+        <a href="/hu/pricing/" class="isActive">HU</a>
       </div>
     </div>
   </div>
 </header>
 
 
-    <main id="main"><section>
-  <div class="dentix-gallery">
-    <h2 class="dentix-title">Galéria</h2>
+    <main id="main"><section id="pricing" class="section">
+ 
+<div class="dentix-container">
+    <h1 class="dentix-title">Lista Prețuri</h1>
 
-    <p class="dentix-gallery-text">
-      Rendelőnkben tiszta, modern és nyugodt környezet várja, ahol pácienseink kényelme és biztonsága az első helyen áll.
-    </p>
-
-    <div class="dentix-gallery-grid">
-      <img src="/assets/images/1.jpeg" alt="" onclick="openLightbox(0)" />
-      <img src="/assets/images/2.jpeg" alt="" onclick="openLightbox(1)" />
-      <img src="/assets/images/3.jpeg" alt="" onclick="openLightbox(2)" />
-      <img src="/assets/images/4.jpeg" alt="" onclick="openLightbox(3)" />
-      <img src="/assets/images/6.jpeg" alt="" onclick="openLightbox(5)" />
-      <img src="/assets/images/7.jpeg" alt="" onclick="openLightbox(6)" />
-      <img src="/assets/images/8.jpeg" alt="" onclick="openLightbox(7)" />
+    <div class="dentix-section">
+        <div class="dentix-section-title">Consultație</div>
+        <div class="dentix-row">
+            <div class="dentix-name">Consultație</div>
+            <div class="dentix-price">50 lei</div>
+        </div>
     </div>
 
-    <!-- LIGHTBOX -->
-    <div id="dentix-lightbox">
-      <span class="dentix-close" onclick="closeLightbox()">✕</span>
+    <div class="dentix-section">
+        <div class="dentix-section-title">Consultație</div>
+        <div class="dentix-row"><div>Consultație</div><div class="dentix-price">50 lei</div></div>
 
-      <span class="dentix-nav left" onclick="prevImage()">❮</span>
-      <img id="dentix-lightbox-img" />
-      <span class="dentix-nav right" onclick="nextImage()">❯</span>
     </div>
-  </div>
 
-  <!-- Lightbox -->
-  <div id="dentix-lightbox" onclick="closeLightbox()">
-    <img id="dentix-lightbox-img" />
-  </div>
+    <div class="dentix-section">
+        <div class="dentix-section-title">Chirurgie</div>
+        <div class="dentix-row"><div>Extracție monoradiculari</div><div class="dentix-price">200 lei</div></div>
+        <div class="dentix-row"><div>Extracție pluriradiculari</div><div class="dentix-price">250 lei</div></div>
+        <div class="dentix-row"><div>Extracție dinți parodontotici mobili</div><div class="dentix-price">120 lei</div></div>
+        <div class="dentix-row"><div>Odontectomie</div><div class="dentix-price">400-600 lei</div></div>
+        <div class="dentix-row"><div>Sutură</div><div class="dentix-price">20 lei</div></div>
+        <div class="dentix-row"><div>Rezecție apicală</div><div class="dentix-price">450 lei</div></div>
+
+    </div>
+      <div class="dentix-section">
+        <div class="dentix-section-title">Obturații (Plombe)</div>
+        <div class="dentix-row"><div>Obturație din compozit</div><div class="dentix-price">250-300 lei</div></div>
+        <div class="dentix-row"><div>Obturație glassionomer</div><div class="dentix-price">140 lei</div></div>
+    </div>
+
+<div class="dentix-section">
+        <div class="dentix-section-title">Endodonție</div>
+        <div class="dentix-row"><div>Tratament de urgență</div><div class="dentix-price">50 lei</div></div>
+        <div class="dentix-row"><div>Tratament endodontic monoradiculari</div><div class="dentix-price">350 lei</div></div>
+        <div class="dentix-row"><div>Tratament endodontic premolari</div><div class="dentix-price">450 lei</div></div>
+        <div class="dentix-row"><div>Tratament endodontic molari</div><div class="dentix-price">550 lei</div></div>
+        <div class="dentix-row"><div>Retratament endodontic monoradiculari</div><div class="dentix-price">400 lei</div></div>
+        <div class="dentix-row"><div>Retratament endodontic premolari</div><div class="dentix-price">500 lei</div></div>
+        <div class="dentix-row"><div>Retratament endodontic molari</div><div class="dentix-price">600 lei</div></div>
+    </div>
+
+   <div class="dentix-section">
+        <div class="dentix-section-title">Igienizare- Profilaxie</div>
+        <div class="dentix-row"><div>Detartraj ultrasonic + periaj + air flow</div><div class="dentix-price">250 lei</div></div>
+        <div class="dentix-row"><div>Fluorizare</div><div class="dentix-price">30 lei</div></div>
+        
+    </div>
+
+
+      <div class="dentix-section">
+        <div class="dentix-section-title">Pedodonție</div>
+        <div class="dentix-row"><div>Sigilare dinte temporar</div><div class="dentix-price">50 lei</div></div>
+        <div class="dentix-row"><div>Sigilare dinte permanent</div><div class="dentix-price">100 lei</div></div>
+        <div class="dentix-row"><div>Obturație glassionomer (dinte temporar)</div><div class="dentix-price">100 lei</div></div>
+        <div class="dentix-row"><div>Obturație compozit (dinte temporar)</div><div class="dentix-price">150 lei</div></div>
+        <div class="dentix-row"><div>Extracție dinte temporar</div><div class="dentix-price">100-140 lei</div></div>
+        <div class="dentix-row"><div>Tratament de canal cu extirpare vitală</div><div class="dentix-price">130 lei</div></div>
+        
+    </div>
+
+
+    <div class="dentix-section">
+        <div class="dentix-section-title">Protetică</div>
+        <div class="dentix-row"><div>Coroană provizorie (în cabinet)</div><div class="dentix-price">100 lei</div></div>
+        <div class="dentix-row"><div>Ablație</div><div class="dentix-price">25 lei/element</div></div>
+        <div class="dentix-row"><div>Aplicare pivot de fibră de sticlă</div><div class="dentix-price">200 lei</div></div>
+        <div class="dentix-row"><div>Coroană metalică</div><div class="dentix-price">220 lei</div></div>
+        <div class="dentix-row"><div>Coroană metalo-ceramică (Ivoclar)</div><div class="dentix-price">600 lei</div></div>
+        <div class="dentix-row"><div>Coroană zirconiu stratificat</div><div class="dentix-price">950 lei</div></div>
+        <div class="dentix-row"><div>Coroană zirconiu monolitic</div><div class="dentix-price">800 lei</div></div>
+        <div class="dentix-row"><div>Coroană provizorie laborator</div><div class="dentix-price">200 lei</div></div>
+        <div class="dentix-row"><div>Inlay/Onlay/Overlay compozit</div><div class="dentix-price">500 lei</div></div>
+        <div class="dentix-row"><div>Proteză totală/subtotală</div><div class="dentix-price">1400 lei</div></div>
+        <div class="dentix-row"><div>Proteza Kemmeny</div><div class="dentix-price">400 lei</div></div>
+        <div class="dentix-row"><div>Proteza scheletată</div><div class="dentix-price">3000 lei + partea fixă</div></div>
+        
+    </div>
+
+    <div class="dentix-section">
+        <div class="dentix-section-title">Albire profesională</div>
+        <div class="dentix-row"><div>Albire profesională</div><div class="dentix-price">500 lei</div></div>
+
+    </div>
+
+
+
+</div>
 </section>
 
+<style>
+
+.dentix-container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    border-radius: 16px;
+    padding: 30px;
+}
+
+.dentix-title {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #2c3e50;
+}
+
+.dentix-section {
+    margin-bottom: 25px;
+}
+
+.dentix-section-title {
+    font-size: 18px;
+    color: #797f95;
+    margin-bottom: 10px;
+    border-left: 4px solid #797f95;
+    padding-left: 10px;
+}
+
+.dentix-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.dentix-row:last-child {
+    border-bottom: none;
+}
+
+.dentix-name {
+    color: #444;
+}
+
+.dentix-price {
+    color: #797f95;
+    font-weight: 600;
+}
+
+@media (max-width: 600px) {
+    .dentix-container {
+        padding: 20px;
+    }
+
+    .dentix-row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 3px;
+    }
+
+    .dentix-price {
+        font-size: 14px;
+    }
+}
+
+.dentix-section {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.6s ease;
+}
+
+.dentix-section.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+</style>
+
 <script>
-  const images = [
-    "/assets/images/1.jpeg",
-    "/assets/images/2.jpeg",
-    "/assets/images/3.jpeg",
-    "/assets/images/4.jpeg",
-    "/assets/images/6.jpeg",
-    "/assets/images/7.jpeg",
-    "/assets/images/8.jpeg",
-  ];
+const sections = document.querySelectorAll('.dentix-section');
 
-  let currentIndex = 0;
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('show');
+        }
+    });
+}, {
+    threshold: 0.1
+});
 
-  function openLightbox(index) {
-    currentIndex = index;
-    document.getElementById("dentix-lightbox").style.display = "flex";
-    showImage();
-  }
-
-  function closeLightbox() {
-    document.getElementById("dentix-lightbox").style.display = "none";
-  }
-
-  function showImage() {
-    document.getElementById("dentix-lightbox-img").src = images[currentIndex];
-  }
-
-  function nextImage() {
-    currentIndex = (currentIndex + 1) % images.length;
-    showImage();
-  }
-
-  function prevImage() {
-    currentIndex = (currentIndex - 1 + images.length) % images.length;
-    showImage();
-  }
-
-  /* billentyűk */
-  document.addEventListener("keydown", (e) => {
-    if (document.getElementById("dentix-lightbox").style.display !== "flex")
-      return;
-
-    if (e.key === "ArrowRight") nextImage();
-    if (e.key === "ArrowLeft") prevImage();
-    if (e.key === "Escape") closeLightbox();
-  });
-</script>
-</main>
+sections.forEach(section => {
+    observer.observe(section);
+});
+</script></main>
 
     <footer class="siteFooter">
   <div class="wrap footerGrid">

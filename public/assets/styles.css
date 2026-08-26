@@ -19,11 +19,6 @@
   --max: 1120px;
 }
 
-.subtitle {
-  color: var(--green);
-}
-
-
 * {
   box-sizing: border-box;
 }
@@ -1391,4 +1386,3 @@ iframe {
 body {
   margin: 0;
 }
-
